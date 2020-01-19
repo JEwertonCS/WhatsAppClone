@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WhatsApp Clone</string>
+    <string name="digite_email">Digite seu email</string>
+    <string name="digite_senha">Digite sua senha</string>
+    <string name="botao_logar">Logar</string>
+    <string name="nao_tem_conta">Não tem conta? Cadatre-se</string>
+    <string name="digite_nome">Digite seu nome</string>
+    <string name="informe_nome_valido">Informe um nome válido!</string>
+    <string name="informe_email_valido">Informe um email válido!</string>
+
+    <string name="excecao_senha_fraca">Digite uma senha mais forte!</string>
+</resources>
