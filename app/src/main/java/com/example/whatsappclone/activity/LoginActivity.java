@@ -69,7 +69,7 @@ public class LoginActivity extends AppCompatActivity {
                 logarUsuario( usuario );
             }else {
                 Toast.makeText(LoginActivity.this,
-                        "Informe sua senha",
+                        R.string.digite_senha,
                         Toast.LENGTH_SHORT).show();
             }
         }
@@ -90,11 +90,11 @@ public class LoginActivity extends AppCompatActivity {
                             try {
                                 throw task.getException();
                             }catch ( FirebaseAuthInvalidUserException e){
-                                excecao = "Usuário não cadastrado!";
+                                excecao = getString(R.string.excecao_usuario_nao_cadastrado);
                             } catch ( FirebaseAuthInvalidCredentialsException e){
-                                excecao = "Por favor, digite um e-mail válido!";
+                                excecao = getString( R.string.excecao_digite_email_valido );
                             } catch (Exception e) {
-                                excecao = "Erro ao cadastrar usuário: " + e.getMessage();
+                                excecao = "Erro: " + e.getMessage();
                                 e.printStackTrace();
                             }
 

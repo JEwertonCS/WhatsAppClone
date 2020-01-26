@@ -9,5 +9,9 @@
     <string name="informe_email_valido">Informe um email válido!</string>
     <string name="informe_senha">Informe sua senha!</string>
 
+    <!-- Exceções Firebase   -->
     <string name="excecao_senha_fraca">Digite uma senha mais forte!</string>
+    <string name="excecao_usuario_nao_cadastrado">Usuário não cadastrado!</string>
+    <string name="excecao_digite_email_valido">Por favor, digite um e-mail válido!</string>
+    <string name="excecao_conta_ja_cadastrada">Conta já cadastrada!</string>
 </resources>
