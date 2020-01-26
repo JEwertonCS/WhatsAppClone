@@ -7,6 +7,7 @@
     <string name="digite_nome">Digite seu nome</string>
     <string name="informe_nome_valido">Informe um nome válido!</string>
     <string name="informe_email_valido">Informe um email válido!</string>
+    <string name="informe_senha">Informe sua senha!</string>
 
     <string name="excecao_senha_fraca">Digite uma senha mais forte!</string>
 </resources>
