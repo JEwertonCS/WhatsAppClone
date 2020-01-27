@@ -14,4 +14,11 @@
     <string name="excecao_usuario_nao_cadastrado">Usuário não cadastrado!</string>
     <string name="excecao_digite_email_valido">Por favor, digite um e-mail válido!</string>
     <string name="excecao_conta_ja_cadastrada">Conta já cadastrada!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="fragment_conversa">Conversas</string>
+    <string name="fragment_contato">Contatos</string>
+
+    <string name="mensagem_configuracao">Esse não é seu nome de usuário nem a sua senha. Esse nome ficará visível para seus contatos do Whatsapp Clone</string>
+    <string name="nome_usuario">Nome do usuário</string>
 </resources>
