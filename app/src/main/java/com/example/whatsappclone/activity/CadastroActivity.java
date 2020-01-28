@@ -31,8 +31,8 @@ import java.util.List;
 public class CadastroActivity extends AppCompatActivity {
     private EditText editNome, editEmail, editSenha;
     private Button buttonCadastrar;
-
     private FirebaseAuth autenticacao;
+    private static int REQUEST_CODE_CADASTRO = 1;
 
     private String[] permissoesNecessarias = new String[]{
             Manifest.permission.CAMERA,
@@ -45,7 +45,7 @@ public class CadastroActivity extends AppCompatActivity {
         setContentView(R.layout.activity_cadastro);
 
         //Validar permissões
-        Permissao.validarPermissoes( permissoesNecessarias, this, 1);
+        Permissao.validarPermissoes( permissoesNecessarias, this, REQUEST_CODE_CADASTRO);
 
         editNome = findViewById(R.id.editNome);
         editEmail = findViewById(R.id.editLoginEmail);
